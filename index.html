@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="myModule" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Rich Man's Reddit</title>
+  </head>
+  <body>
+
+      <ul>
+        <li><a href="#!/input">Search Reddit!</a></li>
+        <li><a href="#!/output">Check The Results!</a></li>
+        
+      </ul>
+
+    <ng-view></ng-view>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js" type="text/javascript"></script>
+    <script src="https://code.angularjs.org/1.6.5/angular-route.js" charset="utf-8"></script>
+    <script src="Module/module.js" charset="utf-8"></script>
+    <script src="Config/config.js" charset="utf-8"></script>
+    <script src="Controller/controller.js" charset="utf-8"></script>
+    <script src="Controller/output-controller.js"></script>
+    <script src="Services/services.js" charset="utf-8"></script>
+    <script src="Directives/directives.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  </body>
+</html>

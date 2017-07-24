@@ -1,0 +1,93 @@
+body {
+  background-color: azure;
+}
+
+ul {
+  font-family: inherit;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: steelblue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: grey;
+}
+
+#wrapper .text {
+bottom:30px;
+left:0px;
+visibility:hidden;
+}
+
+#wrapper:hover .text {
+visibility:visible;
+}
+
+
+.searchBar {
+  margin-top: 16px;
+}
+
+#typer {
+  background-color: lightgrey;
+  text-align: center;
+  border:1px solid #adc5cf;
+  border-radius: 25px;
+  width: 200px;
+  height: 20px;
+  padding-right: 50px;
+}
+
+
+#suBut {
+  background-color: steelblue;
+  text-align: center;
+  color: white;
+  border:1px solid #adc5cf;
+  border-radius: 125px;
+  cursor: pointer;
+  margin-left: -55px;
+  height: 25px;
+  width: 60px;
+
+}
+
+h1{
+  text-align: left;
+  color: steelblue;
+}
+
+
+img {
+  border-radius: 25px;
+  padding: 0 0 0 0;
+box-shadow: 2px 2px 2px steelblue;
+}
+
+img:hover {
+  opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+div {
+  display: inline;
+  width: 25%;
+  font-size: 10px;
+  margin-top: 189px;
+
+}
